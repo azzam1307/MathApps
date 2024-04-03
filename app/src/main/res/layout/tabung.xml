@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7EEDD"
+    android:padding="16dp"
+    tools:context=".fragments.BangunDatar">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="95sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ui_tabung"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/tabung"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/hasiljumlah"
+            android:layout_width="150sp"
+            android:layout_height="35sp"
+            android:background="@drawable/bghasil"
+            android:hint="HASIL"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/input1"
+            android:layout_width="300sp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bghitungan"
+            android:gravity="center"
+            android:hint="Masukkan Jari-Jari"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/input2"
+            android:layout_width="300sp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bghitungan"
+            android:gravity="center"
+            android:hint="Masukkan Tinggi"
+            android:inputType="numberDecimal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="90sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_gravity="center"
+        android:id="@+id/btn_back"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bg"
+        android:text="Back"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+
+        />
+
+
+
+</LinearLayout>

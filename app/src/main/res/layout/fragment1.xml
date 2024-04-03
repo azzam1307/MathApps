@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7EEDD"
+    android:padding="16dp"
+    tools:context=".fragments.BangunRuang"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:src="@drawable/bangundatar"
+        android:layout_marginBottom="5sp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btn_persegi"
+            android:clickable="true"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/persegi"/>
+
+        <ImageView
+            android:id="@+id/btn_persegipanjang"
+            android:layout_marginStart="40dp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/persegipanjang"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btn_segitiga"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/segitiga"/>
+
+        <ImageView
+            android:id="@+id/btn_lingkaran"
+            android:layout_marginStart="50dp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/lingkaran"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/btn_ketupat"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/ketupat"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

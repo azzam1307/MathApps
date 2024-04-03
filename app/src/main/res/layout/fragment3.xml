@@ -1,0 +1,104 @@
+<!-- res/layout/fragment3.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#F7EEDD">
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:layout_marginTop="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/user"/>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="245sp"
+        android:layout_height="45sp"
+        android:paddingStart="15sp"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/rounded_bg"
+        android:gravity="start">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/person"
+            android:layout_marginRight="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Azzam Fitrawansyah"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="245sp"
+        android:layout_height="45sp"
+        android:paddingStart="15sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/rounded_bg"
+        android:gravity="start">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/email"
+            android:layout_marginRight="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="azzamnh131007@gmail.com"
+            android:textSize="13sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="245sp"
+        android:layout_height="45sp"
+        android:paddingStart="15sp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/rounded_bg"
+        android:gravity="start">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/phone"
+            android:layout_marginRight="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+62 851 7210 2007"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logout"
+            android:id="@+id/btn_logout"/>
+
+    </LinearLayout>
+
+</LinearLayout>
